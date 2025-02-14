@@ -1,0 +1,86 @@
+<div class="placement-heading">
+    <div class="placement-content">
+        <h1>Your Gateway to Success</h1>
+        <h3>Embark on a journey of achievement with our exceptional placement opportunities</h3>
+        <p>A dedicated team to help you land the best opportunities</p>
+        <p>Curated openings and industry referrals to ensure you have access to the best opportunities out there</p>
+        <p>Our placement cell works closely with you to help you reach closer to your professional goals</p>
+        <div class="placement-stats">
+            <p><span class="highlight">3 LPA</span> Average CTC</p>
+            <p><span class="highlight">300+</span> Hiring Partners</p>
+        </div>
+    </div>
+    <div class="placement-image">
+        <img src="../../assets/placementBG.jpg" alt="image">
+    </div>
+</div>
+
+<p class="faang-line"><span>Myospaz Infotech in the top Companies</span></p>
+
+<div class="placement-logos">
+    <img src="../../assets/microsoft.png" alt="Company 1">
+    <img src="../../assets/uber.png" alt="Company 2">
+    <img src="../../assets/zomato.png" alt="Company 3">
+    <img src="../../assets/zoho.png" alt="Company 3">
+    <img src="../../assets/lenskart.png" alt="Company 1">
+    <img src="../../assets/ola.png" alt="Company 2">
+    <img src="../../assets/walmart.png" alt="Company 1">
+    <img src="../../assets/paytm.png" alt="Company 1">
+    <img src="../../assets/phonepe.png" alt="Company 1">
+</div>
+
+<div class="placement-logos">
+    <img src="../../assets/accenture.png" alt="">
+    <img src="../../assets/amazon2.jpg" alt="">
+    <img src="../../assets/adidas.png" alt="">
+    <img src="../../assets/Bosch.png" alt="">
+    <img src="../../assets//citigroup.png" alt="">
+    <img src="../../assets/flipkart.png" alt="">
+    <img src="../../assets/cocacola.png" alt="">
+    <img src="../../assets/infosys.png" alt="">
+    <img src="../../assets/IBM1.png" alt="">
+</div>
+
+<div class="placement-logos">
+    <img src="../../assets/puma1.png" alt="">
+    <img src="../../assets/cognizant.png" alt="">
+    <img src="../../assets/intel.png" alt="">
+    <img src="../../assets/hp.png" alt="">
+    <img src="../../assets/myntra.png" alt="">
+    <img src="../../assets/nestle1.png" alt="">
+    <img src="../../assets/nike1.png" alt="">
+    <img src="../../assets/sony.png" alt="">
+    <img src="../../assets/TCS.png" alt="">
+</div>
+
+<p class="faang-line"><span>Students Placed in Companies</span></p>
+
+<div class="placement-card-columns">
+  <div class="placement-card" *ngFor="let testimonial of itTestimonials">
+    <div class="card-image">
+      <img [src]="testimonial.imageUrl" [alt]="testimonial.name">
+    </div>
+    <div class="card-details">
+      <h4>{{ testimonial.name }}</h4>
+      <p>Company: {{ testimonial.company }}</p>
+      <p>{{ testimonial.message }}</p>
+    </div>
+  </div>
+</div>
+
+<p class="faang-line"><span>Non-IT Students</span></p>
+<div class="placement-card-columns">
+  <div class="placement-card" *ngFor="let testimonial of nonITTestimonials">
+    <div class="card-image">
+      <img [src]="testimonial.imageUrl" [alt]="testimonial.name">
+    </div>
+    <div class="card-details">
+      <h4>{{ testimonial.name }}</h4>
+      <p>Company: {{ testimonial.company }}</p>
+      <p>{{ testimonial.message }}</p>
+    </div>
+  </div>
+</div>
+
+
+

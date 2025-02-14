@@ -1,0 +1,99 @@
+<div class="container">
+    <div class="row">
+        <h2 class="heading">Institute</h2><br>
+        <div class="col-md-6">
+            <p>
+                Myospaz Infotech is a premier institution that offers quality education and training in It & Software,
+                Design, Web Development, Data science, Mean & Mean Stack,Cyber Security,AWS etc.
+            </p>
+            <p>The institute was established in 2024 with the vision of creating a hub of innovation and excellence in
+                the field of technical education.</p>
+            <p>The institute also conducts research projects, workshops, seminars, and conferences on emerging topics
+                and trends in technology.</p>
+            <p>The institute aims to produce competent and skilled professionals who can contribute to the technical
+                development of the country and the world.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="https://img.freepik.com/free-vector/seminar-concept-illustration_114360-7480.jpg?w=1060&t=st=1691649549~exp=1691650149~hmac=1bd61e42b1d0a821329310ad096a15c2d9bd0213503771b47c225ad27ee2a3cas"
+                alt="" height="300px" width="600px">
+        </div>
+    </div><br><br>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://img.freepik.com/premium-vector/man-character-thinking_155707-268.jpg?size=626&ext=jpg&ga=GA1.2.558399761.1691568162&semt=sph"
+                alt="" height="350px" width="600px">
+        </div>
+        <div class="col-md-6">
+            <h2 class="question1 mb-3">Why Prefer Myospaz ?</h2>
+            We, as an institute do not believe in filling our batches with many students. Myospaz gives more importance
+            to the standard quality of teaching. We give students exposure to many technologies and ensure they are
+            under the guidance of expert developers who have good IT industry experience.
+
+            <h2>What Makes Us Different ?</h2>
+            Myospaz not only sharpens students' hard skills but also emphasises on soft skills. A student is how to
+            present in an interview, how to tackle tricky situations and how to groom themselves.
+        </div><br><br>
+
+        <br><br>
+
+        <h2 class="team mb-3">Our Team</h2>
+        <div class="row">
+
+            <div class="col-md-3" *ngFor="let member of aboutUsDetails">
+                <div class="card" style="width: 20rem;">
+                    <img [src]="'http://localhost:3000' + member.imageUrl" class="card-img-top" alt="Team Member">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"><strong>Name</strong> : {{member.name}}</p>
+                        <p class="card-text"><strong>Qalification :</strong> {{member.qalification}}</p>
+                        <p class="card-text"><strong>Experience :</strong> {{member.experience}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+
+        <h2 class="heading3 mb-3">Extra Curriculum Activity</h2>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src=" https://img.freepik.com/premium-photo/attentive-creative-business-people-meeting_13339-244389.jpg?size=626&ext=jpg"
+                            class="card-img-top" alt="..." height="300" width="80">
+                        <div class="card-body">
+                            <h5 class="card-title">Group Discussion</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/analysis-market_1098-14109.jpg?size=626&ext=jpg&ga=GA1.2.558399761.1691568162&semt=ais"
+                            class="card-img-top" alt="..." height="300" width="80">
+                        <div class="card-body">
+                            <h5 class="card-title">Presentation</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/young-muslim-student-class_53876-14377.jpg?size=626&ext=jpg&ga=GA1.2.558399761.1691568162&semt=ais"
+                            class="card-img-top" alt="..." height="300" width="80">
+                        <div class="card-body">
+                            <h5 class="card-title">Exams</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/guy-shows-document-girl-group-young-freelancers-office-have-conversation-working_146671-13569.jpg?size=626&ext=jpg&ga=GA1.2.558399761.1691568162&semt=ais"
+                            class="card-img-top" alt="..." height="300" width="80">
+                        <div class="card-body">
+                            <h5 class="card-title">Webithon</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
